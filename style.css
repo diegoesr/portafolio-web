@@ -535,12 +535,15 @@ body{
 
 .resume-card .card-subtitle{color: var(--primary);}
 
-.resume-card .card-text{color: var(--on-surface-variant);}
+.resume-card .card-text{
+    color: var(--on-surface-variant);
+}
 
 .resume-bottom-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     gap: 12px;
+    padding: 5%;
 }
 
 .resume-bottom-item{
@@ -629,10 +632,13 @@ body{
 .social-list{
     display: flex;
     gap: 12px;
-    
+    padding: 10%;
 }
 
-.social-item{padding:12px;}
+.social-item{
+    padding:12px;
+   
+}
 
 .input-wrapper{
     margin-block-start: 16px;
